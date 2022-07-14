@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
 
+#content {
+    margin: 2% 25% 2% 25%;
+
+}
+
 
 body {
     font-family: 'Roboto';
-    text-align: center;
 }
 
 header {
@@ -27,14 +31,36 @@ h1 {
     
 }
 
-#introduction {
+.introduction {
     font-size: 20px;
-    margin: 50px 400px 50px 400px;
     text-align: justify;
     font-weight: 300;
 }
 
 .recipe-info {
-    text-align: center;
     height: auto;
     width: 350px;
+    margin: 4% 25% 2% 25%;
+}
+
+.line {
+    width: 60%;
+    height: 2px;
+    background-color: rgba(137, 137, 137, 0.726);
+    border: none;
+}
+
+.list1 {
+    display: inline-block;
+    text-align: left;
+  
+    list-style: none;
+
+}
+
+.list2 {
+    display: inline-block;
+    text-align: center;
+
+
+}

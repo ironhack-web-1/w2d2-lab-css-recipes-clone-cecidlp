@@ -31,6 +31,10 @@ h1 {
     
 }
 
+h2 {
+    text-align: center;
+}
+
 .introduction {
     font-size: 20px;
     text-align: justify;
@@ -44,23 +48,29 @@ h1 {
 }
 
 .line {
-    width: 60%;
+    width: 800px;
     height: 2px;
-    background-color: rgba(137, 137, 137, 0.726);
+    background-color: rgba(137, 137, 137, 0.952);
     border: none;
 }
+
+.ingredients-section {
+    margin: 2% 25% 2% 25%;
+}
+
 
 .list1 {
     display: inline-block;
     text-align: left;
-  
     list-style: none;
 
 }
 
 .list2 {
     display: inline-block;
-    text-align: center;
+    text-align: justify;
+    padding: 0;
+    margin: 2% 3% 2% 3%;
 
 
 }
